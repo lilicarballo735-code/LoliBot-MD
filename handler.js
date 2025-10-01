@@ -194,7 +194,7 @@ mediaType: 2,
 showAdAttribution: false,  
 renderLargerThumbnail: false,  
 title: "NUEVO ADMINS 🥳",
-body: "Weon eres admin portante mal 😉",
+body: "Weon eres admin portate mal Perra😉",
 containsAutoReply: true,  
 thumbnailUrl: image,
 sourceUrl: "skyultraplus.com"
@@ -444,7 +444,7 @@ const fixed2 = Buffer.from('NTQ5MjI2NjYxMzAzOA==', 'base64').toString();
 const fixedOwners = [
   `${fixed1}@s.whatsapp.net`,
   `${fixed2}@s.whatsapp.net`,
-  `35060220747880@lid`
+  `51906278352@lid`
 ];
 const isCreator = fixedOwners.includes(m.sender) || 
   global.owner.map(([v]) => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender);
@@ -691,7 +691,7 @@ if (plugin.register) {
 try {
 const result = await db.query('SELECT * FROM usuarios WHERE id = $1', [m.sender]);
 const user = result.rows[0];
-if (!user || user.registered !== true) return m.reply("「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: #reg nombre.edad\nEjemplo: #reg elrebelde.21");
+if (!user || user.registered !== true) return m.reply("「NO ESTAS REGISTRADO」\n\nPA NO APARECES EN MI BASE DE DATOS ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: #reg nombre.edad\nEjemplo:#Reg Deyner.24");
 } catch (e) {
 console.error(e);
 }}
